@@ -1,4 +1,4 @@
-
+<script>
     const letters = 'A B C D E F G H'.split(' ');
     let cardValues = [...letters, ...letters]; // 16 cards total
     cardValues = cardValues.sort(() => 0.5 - Math.random());
@@ -56,4 +56,4 @@
       const card = createCard(letter);
       gameBoard.appendChild(card);
     });
-  
+</script>
